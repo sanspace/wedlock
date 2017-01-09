@@ -1,0 +1,63 @@
+/* Background */
+body {
+    background: url(../img/bg.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+    color: #eee;
+    font-size: 1.4em;
+}
+
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+      .container {margin-top: 2em;}
+}
+
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+    body { 
+        background: url(../img/bg-mobile.jpg) no-repeat right right fixed;
+        min-height:100%; /* workaround for mobile browsers */
+        background-size:cover;
+    }
+}
+
+blockquote {
+    font-family: 'Caveat', cursive;
+    font-size: 2.3em;
+}
+
+img {
+    width: 100%;
+}
+
+.text {
+    font-family: 'Pacifico', cursive;
+    font-size: 1.7em;
+}
+
+.content {
+    font-family: 'Lemonada', cursive;
+    margin-top: 1em;
+}
+
+.schedule {
+    font-family: 'Average', serif;
+    margin-top: 1em;
+}
+
+.shadow {
+    text-shadow: #333 0.1em 0.1em 0.2em;
+}
+
+.backdrop {
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+}
+
+table {
+    margin: 0 auto;
+    width: 100%;
+}
