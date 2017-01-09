@@ -13,7 +13,7 @@ body {
   and (min-device-width: 1200px) 
   and (max-device-width: 1600px) 
   and (-webkit-min-device-pixel-ratio: 1) { 
-      .container {margin-top: 2em;}
+      .container {margin-top: 1.7em;}
 }
 
 @media only screen and (min-width : 320px) and (max-width : 480px) {
@@ -60,4 +60,8 @@ img {
 table {
     margin: 0 auto;
     width: 100%;
+}
+
+th {
+    text-align: center;
 }
